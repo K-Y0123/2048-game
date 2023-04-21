@@ -8,6 +8,7 @@ html, body {
   font-size: 18px; }
 
 .sidebar {
+  font-family: Arial;
   height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
