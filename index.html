@@ -30,7 +30,9 @@
       <p class="game-intro">Join the numbers and get to the <strong>2048 tile!</strong></p>
       <a class="restart-button">New Game</a>
     </div>
-
+    <div id="main" class="absolute">
+      <button class="openbtn" onclick="openNav()">&#9776;</button>
+    </div>
     <div class="game-container">
       <div class="game-message">
         <p></p>
@@ -95,5 +97,16 @@
   <script src="js/local_storage_manager.js"></script>
   <script src="js/game_manager.js"></script>
   <script src="js/application.js"></script>
+  <script>
+      function openNav() {
+           document.getElementById("mySidebar").style.width = "250px";
+           document.getElementById("main").style.marginLeft = "250px";
+      }
+
+      function closeNav() {
+       	   document.getElementById("mySidebar").style.width = "0";
+           document.getElementById("main").style.marginLeft= "0";
+      }
+   </script>
 </body>
 </html>
