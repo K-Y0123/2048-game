@@ -48,7 +48,7 @@ html, body {
 .openbtn {
   font-size: 20px;
   cursor: pointer;
-  background-color: #111;
+  background-color: #faf8ef;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -56,6 +56,9 @@ html, body {
 
 .openbtn:hover {
   background-color: #444;
+}
+.p-font-type {
+  font-family: sans-serif;
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
